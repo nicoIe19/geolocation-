@@ -1,0 +1,127 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    cursor:crosshair;
+}
+
+
+
+nav {
+  height: 80px;
+  width: 100%;
+  background: rgb(48, 53, 112);
+  position: fixed;
+  overflow-y: hidden;
+  z-index: 1;
+  top: 0;
+}
+
+label.logo {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+    color: white;
+    padding: 0 100px;
+}
+
+nav ul {
+    margin-right: 40px;
+    float: right;
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+html {
+ scroll-behavior: smooth;
+
+}
+
+nav a {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 3px solid transparent;
+  padding: 7px 10px;
+  border-radius:3px;
+  transition: 0.3s;
+}
+
+ a:hover {
+    border: 1px solid rgb(43, 69, 133);
+    transition: 0.5s;
+}
+
+
+img {
+    transform: rotate(180deg);
+
+}
+
+#bunny {
+    float: right;
+    position: fixed;
+    top: 40px;
+}
+
+#kitty {
+    position: fixed;
+    margin-left: 1200px;
+    top: 30px;
+}
+
+
+#thanks {
+  text-align: center;
+  margin-top: 350px;
+  color: white;
+}
+
+#about {
+    height: 750px;
+    width: 100%;
+    background-color: rgb(60, 60, 99);
+}
+
+
+.front-text {
+  height: 750px;
+  background-image: url('dogy.jpg');
+}
+
+.mine {
+  margin-top: 200px;
+}
+
+#about-web {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.first {
+  background-color: rgb(74, 75, 135);
+  height: 450px;
+  width: 400px;
+  border-radius: 0.2cm;
+  margin-left: 30px;
+}
+
+.first h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.first p {
+  margin: 10px;
+}
